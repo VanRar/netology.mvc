@@ -1,0 +1,16 @@
+###
+//смотрим запись
+GET http://localhost:9999/api/posts/show?id=1
+
+
+###
+
+//Добавляем запись
+POST http://localhost:9999/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post3"
+}
+
